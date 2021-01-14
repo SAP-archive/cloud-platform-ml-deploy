@@ -1,0 +1,8 @@
+---
+applications:
+- name: app
+  host: scp_ml_service
+  memory: 128MB
+  disk_quota: 800MB
+  random-route: true
+  buildpack: python_buildpack
